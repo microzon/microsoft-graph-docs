@@ -703,6 +703,22 @@ For more complex scenarios involving multiple permissions, see [Permission scena
 
 ---
 
+## Data Loss Prevention permissions
+
+#### Delegated permissions
+
+|   Permission    |  Display String   |  Description | Admin Consent Required |
+|:----------------|:------------------|:-------------|:-----------------------|
+| _DataLossPrevention.Read_ | Read data loss prevention policies applicable to a user | Allows an app to read data loss prevention policies, on behalf of the signed-in user. | Yes |
+
+#### Application permissions
+
+|   Permission    |  Display String   |  Description | Admin Consent Required |
+|:-----------------------------|:-----------------------------------------|:-----------------|:-----------------|
+| _DataLossPrevention.Read.All_ |   Read data loss prevention policies applicable to a user | Allows an app to read data loss prevention policies for a specific user. | Yes |
+
+---
+
 ## Granular delegated admin privileges (GDAP) permissions
 
 #### Delegated permissions
@@ -1224,6 +1240,22 @@ Incidents permissions are valid only on work or school accounts.
 
 * _SecurityIncident.Read.All_: Read all incidents in an organization (`GET /security/incidents`)
 * _SecurityIncident.ReadWrite.All_: Read and write to all incidents in an organization (`GET /security/incidents`)
+
+---
+
+## Information Protection Configuration permissions
+
+#### Delegated permissions
+
+|   Permission    |  Display String   |  Description | Admin Consent Required |
+|:----------------|:------------------|:-------------|:-----------------------|
+| _InformationProtectionConfig.Read_ | Read information protection configurations applicable to a user | Allows an app to read information protection configurations, on behalf of the signed-in user. | Yes |
+
+#### Application permissions
+
+|   Permission    |  Display String   |  Description | Admin Consent Required |
+|:-----------------------------|:-----------------------------------------|:-----------------|:-----------------|
+| _InformationProtectionConfig.Read.All_ |   Read information protection configurations applicable to a user | Allows an app to read information protection configurations for a specific user. | Yes |
 
 ---
 
