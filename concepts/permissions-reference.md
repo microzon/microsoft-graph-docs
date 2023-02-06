@@ -709,7 +709,7 @@ For more complex scenarios involving multiple permissions, see [Permission scena
 
 |   Permission    |  Display String   |  Description | Admin Consent Required |
 |:----------------|:------------------|:-------------|:-----------------------|
-| _DataLossPrevention.Read_ | Read data loss prevention policies applicable to a user | Allows an app to read data loss prevention policies, on behalf of the signed-in user. | Yes |
+| _DataLossPrevention.Read_ | Read data loss prevention policies applicable to a user | Allows an app to read data loss prevention policies on behalf of the signed-in user. | Yes |
 
 #### Application permissions
 
