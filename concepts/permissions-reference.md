@@ -1249,7 +1249,7 @@ Incidents permissions are valid only on work or school accounts.
 
 |   Permission    |  Display String   |  Description | Admin Consent Required |
 |:----------------|:------------------|:-------------|:-----------------------|
-| _InformationProtectionConfig.Read_ | Read information protection configurations applicable to a user | Allows an app to read information protection configurations on behalf of the signed-in user. | Yes |
+| _InformationProtectionConfig.Read_ | Read information protection configurations applicable to a user | Allows an app to read information protection configurations on behalf of the signed-in user. | Yes|
 
 #### Application permissions
 
