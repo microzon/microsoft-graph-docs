@@ -7,7 +7,7 @@
           "ApiChange": "Permission",
           "ChangedApiName": "DataLossPrevention.Read.All",
           "ChangeType": "Addition",
-          "Description": "Added support for the application permission of `DataLossPrevention.Read.All` to get the data loss prevention policies for the user resource.",
+          "Description": "Added support for the policy-based application permission of `DataLossPrevention.Read.All` to the read operations of the DataLossPrevention policies of [user](https://learn.microsoft.com/en-us/graph/api/resources/user?view=graph-rest-1.0) resource.",
           "Target": "user"
         },
         {
@@ -15,7 +15,7 @@
           "ApiChange": "Permission",
           "ChangedApiName": "DataLossPrevention.Read",
           "ChangeType": "Addition",
-          "Description": "Added support for the delegated permission of `DataLossPrevention.Read` to get the data loss prevention policies for the user resource.",
+          "Description": "Added support for the policy-based delegated permission of `DataLossPrevention.Read` to the read operations of the DataLossPrevention policies of [user](https://learn.microsoft.com/en-us/graph/api/resources/user?view=graph-rest-1.0) resource.",
           "Target": "user"
         },
         {
@@ -23,7 +23,7 @@
           "ApiChange": "Permission",
           "ChangedApiName": "InformationProtectionConfig.Read.All",
           "ChangeType": "Addition",
-          "Description": "Added support for the application permission of `InformationProtectionConfig.Read.All` to get the information protection configurations for the user resource.",
+          "Description": "Added support for the policy-based application permission of `InformationProtectionConfig.Read.All` to the read operations of the information protection configuration policies of [user](https://learn.microsoft.com/en-us/graph/api/resources/user?view=graph-rest-1.0) resource.",
           "Target": "user"
         },
         {
@@ -31,7 +31,7 @@
           "ApiChange": "Permission",
           "ChangedApiName": "InformationProtectionConfig.Read",
           "ChangeType": "Addition",
-          "Description": "Added support for the delegated permission of `InformationProtectionConfig.Read` to get the information protection configurations for the user resource.",
+          "Description": "Added support for the policy-based delegated permission of `InformationProtectionConfig.Read` to the read operations of the information protection configuration policies of [user](https://learn.microsoft.com/en-us/graph/api/resources/user?view=graph-rest-1.0) resource.",
           "Target": "user"
         }
       ],
